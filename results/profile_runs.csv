@@ -1,0 +1,10 @@
+﻿method,trial,elapsed_seconds,sampled_peak_rss_mb,command
+MapReduce baseline (без кэша нормализации),1,10.7194,283.95,python -m src.mapreduce_s3 --sizes all --chunk-size 5000 --output-dir results/profile --no-cache
+MapReduce baseline (без кэша нормализации),2,10.6698,283.82,python -m src.mapreduce_s3 --sizes all --chunk-size 5000 --output-dir results/profile --no-cache
+MapReduce baseline (без кэша нормализации),3,11.5693,283.55,python -m src.mapreduce_s3 --sizes all --chunk-size 5000 --output-dir results/profile --no-cache
+MapReduce optimized (кэш нормализации),1,10.565,274.57,python -m src.mapreduce_s3 --sizes all --chunk-size 5000 --output-dir results/profile
+MapReduce optimized (кэш нормализации),2,10.315,275.33,python -m src.mapreduce_s3 --sizes all --chunk-size 5000 --output-dir results/profile
+MapReduce optimized (кэш нормализации),3,10.5653,277.27,python -m src.mapreduce_s3 --sizes all --chunk-size 5000 --output-dir results/profile
+DuckDB SQL,1,10.9719,1634.22,python -m src.duckdb_compare --sizes all --output-dir results/profile --skip-business
+DuckDB SQL,2,10.9179,1634.61,python -m src.duckdb_compare --sizes all --output-dir results/profile --skip-business
+DuckDB SQL,3,10.9692,1636.08,python -m src.duckdb_compare --sizes all --output-dir results/profile --skip-business

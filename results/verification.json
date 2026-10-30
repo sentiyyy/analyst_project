@@ -1,0 +1,62 @@
+{
+  "variant": "10. Аналитик",
+  "verified": true,
+  "comparisons": {
+    "1000": {
+      "skills.csv": {
+        "match": true,
+        "rows_compared": 938
+      },
+      "pairs.csv": {
+        "match": true,
+        "rows_compared": 10312
+      },
+      "triples.csv": {
+        "match": true,
+        "rows_compared": 50572
+      }
+    },
+    "5000": {
+      "skills.csv": {
+        "match": true,
+        "rows_compared": 2281
+      },
+      "pairs.csv": {
+        "match": true,
+        "rows_compared": 31710
+      },
+      "triples.csv": {
+        "match": true,
+        "rows_compared": 179251
+      }
+    },
+    "10000": {
+      "skills.csv": {
+        "match": true,
+        "rows_compared": 3287
+      },
+      "pairs.csv": {
+        "match": true,
+        "rows_compared": 48783
+      },
+      "triples.csv": {
+        "match": true,
+        "rows_compared": 286768
+      }
+    },
+    "all": {
+      "skills.csv": {
+        "match": true,
+        "rows_compared": 8584
+      },
+      "pairs.csv": {
+        "match": true,
+        "rows_compared": 157225
+      },
+      "triples.csv": {
+        "match": true,
+        "rows_compared": 1141214
+      }
+    }
+  }
+}

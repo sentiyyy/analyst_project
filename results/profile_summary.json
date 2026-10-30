@@ -1,0 +1,23 @@
+{
+  "DuckDB SQL": {
+    "trials": 3,
+    "mean_seconds": 10.953,
+    "min_seconds": 10.9179,
+    "max_seconds": 10.9719,
+    "max_sampled_peak_rss_mb": 1636.08
+  },
+  "MapReduce baseline (без кэша нормализации)": {
+    "trials": 3,
+    "mean_seconds": 10.9862,
+    "min_seconds": 10.6698,
+    "max_seconds": 11.5693,
+    "max_sampled_peak_rss_mb": 283.95
+  },
+  "MapReduce optimized (кэш нормализации)": {
+    "trials": 3,
+    "mean_seconds": 10.4818,
+    "min_seconds": 10.315,
+    "max_seconds": 10.5653,
+    "max_sampled_peak_rss_mb": 277.27
+  }
+}

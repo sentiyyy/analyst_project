@@ -1,0 +1,2 @@
+Большие результаты MapReduce и DuckDB загружаются в RustFS, бакет hh-lake, в префиксы results/analyst/mapreduce/<size>/ и results/analyst/duckdb/<size>/.
+В репозитории сохранены компактные контрольные и бизнес-результаты, а также данные профилирования.

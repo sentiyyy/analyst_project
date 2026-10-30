@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*.csv
+data/*.zip
+rustfs-data/
+results/mapreduce/
+results/profile/
+results/duckdb/1000/
+results/duckdb/5000/
+results/duckdb/10000/
+results/duckdb/all/
+*.log

@@ -1,0 +1,12 @@
+{
+  "variant": "10. Аналитик",
+  "analyst_rows": 56044,
+  "vacancies_with_at_least_one_skill": 34498,
+  "salary_rows_after_currency_and_range_filter": 19078,
+  "median_salary_rur": 100000.0,
+  "salary_method": "RUR only; midpoint when both bounds exist; otherwise available bound; keep 10,000–1,000,000 RUR",
+  "pair_salary_min_support": 30,
+  "triple_salary_min_support": 20,
+  "single_skill_salary_min_support": 20,
+  "regions": "top 3 by number of analyst vacancies"
+}

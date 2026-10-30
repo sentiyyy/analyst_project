@@ -1,0 +1,11 @@
+skill_1,skill_2,skill_3,salary_n,median_salary,baseline_pair,baseline_median,delta,pct_change
+draw.io,uml,анализ бизнес-процессов,21,80000.0,draw.io + uml,250000.0,-170000.0,-68.0
+babok,draw.io,uml,21,80000.0,draw.io + uml,250000.0,-170000.0,-68.0
+soap,system analysis,uml,22,95000.0,soap + uml,230000.0,-135000.0,-58.69565217391305
+agile project management,soap,uml,21,95000.0,soap + uml,230000.0,-135000.0,-58.69565217391305
+idef,soap,uml,21,95000.0,soap + uml,230000.0,-135000.0,-58.69565217391305
+nosql,soap,uml,22,95000.0,soap + uml,230000.0,-135000.0,-58.69565217391305
+oracle,soap,uml,20,95000.0,soap + uml,230000.0,-135000.0,-58.69565217391305
+soap,uml,wsdl,27,95000.0,soap + uml,230000.0,-135000.0,-58.69565217391305
+bpmn,oracle,soap,20,95000.0,bpmn + soap,225000.0,-130000.0,-57.77777777777778
+bpmn,nosql,soap,22,95000.0,bpmn + soap,225000.0,-130000.0,-57.77777777777778
